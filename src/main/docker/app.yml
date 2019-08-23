@@ -1,0 +1,15 @@
+version: '2'
+services:
+    jw_nagai_20190823-app:
+        image: jw_nagai_20190823
+        environment:
+            - _JAVA_OPTIONS=-Xmx512m -Xms256m
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATASOURCE_URL=jdbc:mysql://jw_nagai_20190823-mysql:3306/jw_nagai_20190823?useUnicode=true&characterEncoding=utf8&useSSL=false
+            - JHIPSTER_SLEEP=10 # gives time for the database to boot before the application
+        ports:
+            - 8080:8080
+    jw_nagai_20190823-mysql:
+        extends:
+            file: mysql.yml
+            service: jw_nagai_20190823-mysql

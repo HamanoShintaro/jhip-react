@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="127" failures="0" time="8.17">
+  <testsuite name="User management reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:37" time="1.072" tests="19">
+    <testcase classname="User management reducer tests Common should return the initial state" name="User management reducer tests Common should return the initial state" time="0.009">
+    </testcase>
+    <testcase classname="User management reducer tests Requests should not modify the current state" name="User management reducer tests Requests should not modify the current state" time="0.002">
+    </testcase>
+    <testcase classname="User management reducer tests Requests should set state to loading" name="User management reducer tests Requests should set state to loading" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Requests should set state to updating" name="User management reducer tests Requests should set state to updating" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Failures should set state to failed and put an error message in errorMessage" name="User management reducer tests Failures should set state to failed and put an error message in errorMessage" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Success should update state according to a successful fetch users request" name="User management reducer tests Success should update state according to a successful fetch users request" time="0">
+    </testcase>
+    <testcase classname="User management reducer tests Success should update state according to a successful fetch user request" name="User management reducer tests Success should update state according to a successful fetch user request" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Success should update state according to a successful fetch role request" name="User management reducer tests Success should update state according to a successful fetch role request" time="0">
+    </testcase>
+    <testcase classname="User management reducer tests Success should set state to successful update" name="User management reducer tests Success should set state to successful update" time="0">
+    </testcase>
+    <testcase classname="User management reducer tests Success should set state to successful update with an empty user" name="User management reducer tests Success should set state to successful update with an empty user" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Reset should reset the state" name="User management reducer tests Reset should reset the state" time="0">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches FETCH_USERS_PENDING and FETCH_USERS_FULFILLED actions" name="User management reducer tests Actions dispatches FETCH_USERS_PENDING and FETCH_USERS_FULFILLED actions" time="0.005">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches FETCH_USERS_PENDING and FETCH_USERS_FULFILLED actions with pagination options" name="User management reducer tests Actions dispatches FETCH_USERS_PENDING and FETCH_USERS_FULFILLED actions with pagination options" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches FETCH_ROLES_PENDING and FETCH_ROLES_FULFILLED actions" name="User management reducer tests Actions dispatches FETCH_ROLES_PENDING and FETCH_ROLES_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches FETCH_USER_PENDING and FETCH_USER_FULFILLED actions" name="User management reducer tests Actions dispatches FETCH_USER_PENDING and FETCH_USER_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches CREATE_USER_PENDING and CREATE_USER_FULFILLED actions" name="User management reducer tests Actions dispatches CREATE_USER_PENDING and CREATE_USER_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches UPDATE_USER_PENDING and UPDATE_USER_FULFILLED actions" name="User management reducer tests Actions dispatches UPDATE_USER_PENDING and UPDATE_USER_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches DELETE_USER_PENDING and DELETE_USER_FULFILLED actions" name="User management reducer tests Actions dispatches DELETE_USER_PENDING and DELETE_USER_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="User management reducer tests Actions dispatches ACTION_TYPES.RESET actions" name="User management reducer tests Actions dispatches ACTION_TYPES.RESET actions" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Administration reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:37" time="1.092" tests="19">
+    <testcase classname="Administration reducer tests Common should return the initial state" name="Administration reducer tests Common should return the initial state" time="0.01">
+    </testcase>
+    <testcase classname="Administration reducer tests Requests should set state to loading" name="Administration reducer tests Requests should set state to loading" time="0.003">
+    </testcase>
+    <testcase classname="Administration reducer tests Failures should set state to failed and put an error message in errorMessage" name="Administration reducer tests Failures should set state to failed and put an error message in errorMessage" time="0.002">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch logs request" name="Administration reducer tests Success should update state according to a successful fetch logs request" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch health request" name="Administration reducer tests Success should update state according to a successful fetch health request" time="0">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch metrics request" name="Administration reducer tests Success should update state according to a successful fetch metrics request" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch thread dump request" name="Administration reducer tests Success should update state according to a successful fetch thread dump request" time="0">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch configurations request" name="Administration reducer tests Success should update state according to a successful fetch configurations request" time="0">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch env request" name="Administration reducer tests Success should update state according to a successful fetch env request" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Success should update state according to a successful fetch audits request" name="Administration reducer tests Success should update state according to a successful fetch audits request" time="0">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_HEALTH_PENDING and FETCH_HEALTH_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_HEALTH_PENDING and FETCH_HEALTH_FULFILLED actions" time="0.006">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_METRICS_PENDING and FETCH_METRICS_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_METRICS_PENDING and FETCH_METRICS_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_THREAD_DUMP_PENDING and FETCH_THREAD_DUMP_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_THREAD_DUMP_PENDING and FETCH_THREAD_DUMP_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_LOGS_PENDING and FETCH_LOGS_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_LOGS_PENDING and FETCH_LOGS_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_LOGS_CHANGE_LEVEL_PENDING and FETCH_LOGS_CHANGE_LEVEL_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_LOGS_CHANGE_LEVEL_PENDING and FETCH_LOGS_CHANGE_LEVEL_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_CONFIGURATIONS_PENDING and FETCH_CONFIGURATIONS_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_CONFIGURATIONS_PENDING and FETCH_CONFIGURATIONS_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_ENV_PENDING and FETCH_ENV_FULFILLED actions" name="Administration reducer tests Actions dispatches FETCH_ENV_PENDING and FETCH_ENV_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_AUDITS_PENDING and FETCH_AUDITS_FULFILLED actions with pagination variables - no sort" name="Administration reducer tests Actions dispatches FETCH_AUDITS_PENDING and FETCH_AUDITS_FULFILLED actions with pagination variables - no sort" time="0.001">
+    </testcase>
+    <testcase classname="Administration reducer tests Actions dispatches FETCH_AUDITS_PENDING and FETCH_AUDITS_FULFILLED actions with pagination variables - no dates" name="Administration reducer tests Actions dispatches FETCH_AUDITS_PENDING and FETCH_AUDITS_FULFILLED actions with pagination variables - no dates" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Authentication reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:38" time="0.487" tests="16">
+    <testcase classname="Authentication reducer tests Common tests should return the initial state" name="Authentication reducer tests Common tests should return the initial state" time="0.002">
+    </testcase>
+    <testcase classname="Authentication reducer tests Requests should detect a request" name="Authentication reducer tests Requests should detect a request" time="0">
+    </testcase>
+    <testcase classname="Authentication reducer tests Success should detect a success on login" name="Authentication reducer tests Success should detect a success on login" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests Success should detect a success on get session and be authenticated" name="Authentication reducer tests Success should detect a success on get session and be authenticated" time="0">
+    </testcase>
+    <testcase classname="Authentication reducer tests Success should detect a success on get session and not be authenticated" name="Authentication reducer tests Success should detect a success on get session and not be authenticated" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests Failure should detect a failure on login" name="Authentication reducer tests Failure should detect a failure on login" time="0">
+    </testcase>
+    <testcase classname="Authentication reducer tests Failure should detect a failure" name="Authentication reducer tests Failure should detect a failure" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests Other cases should properly reset the current state when a logout is requested" name="Authentication reducer tests Other cases should properly reset the current state when a logout is requested" time="0">
+    </testcase>
+    <testcase classname="Authentication reducer tests Other cases should properly define an error message and change the current state to display the login modal" name="Authentication reducer tests Other cases should properly define an error message and change the current state to display the login modal" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests Other cases should clear authentication" name="Authentication reducer tests Other cases should clear authentication" time="0">
+    </testcase>
+    <testcase classname="Authentication reducer tests Actions dispatches GET_SESSION_PENDING and GET_SESSION_FULFILLED actions" name="Authentication reducer tests Actions dispatches GET_SESSION_PENDING and GET_SESSION_FULFILLED actions" time="0.003">
+    </testcase>
+    <testcase classname="Authentication reducer tests Actions dispatches LOGOUT actions" name="Authentication reducer tests Actions dispatches LOGOUT actions" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests Actions dispatches CLEAR_AUTH actions" name="Authentication reducer tests Actions dispatches CLEAR_AUTH actions" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests Actions dispatches LOGIN, GET_SESSION and SET_LOCALE success and request actions" name="Authentication reducer tests Actions dispatches LOGIN, GET_SESSION and SET_LOCALE success and request actions" time="0.001">
+    </testcase>
+    <testcase classname="Authentication reducer tests clearAuthToken clears the session token on clearAuthToken" name="Authentication reducer tests clearAuthToken clears the session token on clearAuthToken" time="0.002">
+    </testcase>
+    <testcase classname="Authentication reducer tests clearAuthToken clears the local storage token on clearAuthToken" name="Authentication reducer tests clearAuthToken clears the local storage token on clearAuthToken" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Notification Middleware" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:38" time="0.458" tests="10">
+    <testcase classname="Notification Middleware should not trigger a toast message but should return action" name="Notification Middleware should not trigger a toast message but should return action" time="0.004">
+    </testcase>
+    <testcase classname="Notification Middleware should not trigger a toast message but should return promise success" name="Notification Middleware should not trigger a toast message but should return promise success" time="0.002">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger a success toast message and return promise success" name="Notification Middleware should trigger a success toast message and return promise success" time="0.002">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger a success toast message and return promise success for header alerts" name="Notification Middleware should trigger a success toast message and return promise success for header alerts" time="0.005">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger an error toast message and return promise error" name="Notification Middleware should trigger an error toast message and return promise error" time="0.002">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger an error toast message and return promise error for generic message" name="Notification Middleware should trigger an error toast message and return promise error for generic message" time="0.001">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger an error toast message and return promise error for 400 response code" name="Notification Middleware should trigger an error toast message and return promise error for 400 response code" time="0.001">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger an error toast message and return promise error for 404 response code" name="Notification Middleware should trigger an error toast message and return promise error for 404 response code" time="0.002">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger an error toast message and return promise error for 0 response code" name="Notification Middleware should trigger an error toast message and return promise error for 0 response code" time="0.001">
+    </testcase>
+    <testcase classname="Notification Middleware should trigger an error toast message and return promise error for headers containing errors" name="Notification Middleware should trigger an error toast message and return promise error for headers containing errors" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="private-route component" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:39" time="0.296" tests="8">
+    <testcase classname="private-route component Should throw error when no component is provided" name="private-route component Should throw error when no component is provided" time="0.019">
+    </testcase>
+    <testcase classname="private-route component Should render an error message when the user has no authorities" name="private-route component Should render an error message when the user has no authorities" time="0.014">
+    </testcase>
+    <testcase classname="private-route component Should render a route for the component provided when authenticated" name="private-route component Should render a route for the component provided when authenticated" time="0.002">
+    </testcase>
+    <testcase classname="private-route component Should render a redirect to login when not authenticated" name="private-route component Should render a redirect to login when not authenticated" time="0.005">
+    </testcase>
+    <testcase classname="hasAnyAuthority Should return false when authorities is invlaid" name="hasAnyAuthority Should return false when authorities is invlaid" time="0.001">
+    </testcase>
+    <testcase classname="hasAnyAuthority Should return true when authorities is valid and hasAnyAuthorities is empty" name="hasAnyAuthority Should return true when authorities is valid and hasAnyAuthorities is empty" time="0.001">
+    </testcase>
+    <testcase classname="hasAnyAuthority Should return true when authorities is valid and hasAnyAuthorities contains an authority" name="hasAnyAuthority Should return true when authorities is valid and hasAnyAuthorities contains an authority" time="0">
+    </testcase>
+    <testcase classname="hasAnyAuthority Should return false when authorities is valid and hasAnyAuthorities does not contains an authority" name="hasAnyAuthority Should return false when authorities is valid and hasAnyAuthorities does not contains an authority" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Header" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:39" time="0.385" tests="4">
+    <testcase classname="Header Renders a Header component in dev profile with LoadingBar, Navbar, Nav and dev ribbon." name="Header Renders a Header component in dev profile with LoadingBar, Navbar, Nav and dev ribbon." time="0.018">
+    </testcase>
+    <testcase classname="Header Renders a Header component in prod profile with LoadingBar, Navbar, Nav." name="Header Renders a Header component in prod profile with LoadingBar, Navbar, Nav." time="0.006">
+    </testcase>
+    <testcase classname="Header Renders a Header component in prod profile with logged in User" name="Header Renders a Header component in prod profile with logged in User" time="0.004">
+    </testcase>
+    <testcase classname="Header Renders a Header component in prod profile with no logged in User" name="Header Renders a Header component in prod profile with no logged in User" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Settings reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:40" time="0.304" tests="7">
+    <testcase classname="Settings reducer tests Common tests should return the initial state" name="Settings reducer tests Common tests should return the initial state" time="0.002">
+    </testcase>
+    <testcase classname="Settings reducer tests Settings update should detect a request" name="Settings reducer tests Settings update should detect a request" time="0">
+    </testcase>
+    <testcase classname="Settings reducer tests Settings update should detect a success" name="Settings reducer tests Settings update should detect a success" time="0.001">
+    </testcase>
+    <testcase classname="Settings reducer tests Settings update should detect a failure" name="Settings reducer tests Settings update should detect a failure" time="0">
+    </testcase>
+    <testcase classname="Settings reducer tests Settings update should reset the state" name="Settings reducer tests Settings update should reset the state" time="0.001">
+    </testcase>
+    <testcase classname="Settings reducer tests Actions dispatches UPDATE_ACCOUNT_PENDING and UPDATE_ACCOUNT_FULFILLED actions" name="Settings reducer tests Actions dispatches UPDATE_ACCOUNT_PENDING and UPDATE_ACCOUNT_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="Settings reducer tests Actions dispatches ACTION_TYPES.RESET actions" name="Settings reducer tests Actions dispatches ACTION_TYPES.RESET actions" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Password reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:40" time="0.321" tests="7">
+    <testcase classname="Password reducer tests Common tests should return the initial state" name="Password reducer tests Common tests should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="Password reducer tests Password update should detect a request" name="Password reducer tests Password update should detect a request" time="0.001">
+    </testcase>
+    <testcase classname="Password reducer tests Password update should detect a success" name="Password reducer tests Password update should detect a success" time="0">
+    </testcase>
+    <testcase classname="Password reducer tests Password update should detect a failure" name="Password reducer tests Password update should detect a failure" time="0">
+    </testcase>
+    <testcase classname="Password reducer tests Password update should reset the state" name="Password reducer tests Password update should reset the state" time="0.001">
+    </testcase>
+    <testcase classname="Password reducer tests Actions dispatches UPDATE_PASSWORD_PENDING and UPDATE_PASSWORD_FULFILLED actions" name="Password reducer tests Actions dispatches UPDATE_PASSWORD_PENDING and UPDATE_PASSWORD_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="Password reducer tests Actions dispatches ACTION_TYPES.RESET actions" name="Password reducer tests Actions dispatches ACTION_TYPES.RESET actions" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Creating account tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:40" time="0.257" tests="7">
+    <testcase classname="Creating account tests should return the initial state" name="Creating account tests should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="Creating account tests should detect a request" name="Creating account tests should detect a request" time="0.001">
+    </testcase>
+    <testcase classname="Creating account tests should handle RESET" name="Creating account tests should handle RESET" time="0">
+    </testcase>
+    <testcase classname="Creating account tests should handle CREATE_ACCOUNT success" name="Creating account tests should handle CREATE_ACCOUNT success" time="0">
+    </testcase>
+    <testcase classname="Creating account tests should handle CREATE_ACCOUNT failure" name="Creating account tests should handle CREATE_ACCOUNT failure" time="0">
+    </testcase>
+    <testcase classname="Creating account tests Actions dispatches CREATE_ACCOUNT_PENDING and CREATE_ACCOUNT_FULFILLED actions" name="Creating account tests Actions dispatches CREATE_ACCOUNT_PENDING and CREATE_ACCOUNT_FULFILLED actions" time="0.002">
+    </testcase>
+    <testcase classname="Creating account tests Actions dispatches ACTION_TYPES.RESET actions" name="Creating account tests Actions dispatches ACTION_TYPES.RESET actions" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Axios Interceptor" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:40" time="0.254" tests="3">
+    <testcase classname="Axios Interceptor setupAxiosInterceptors onRequestSuccess is called on fulfilled request" name="Axios Interceptor setupAxiosInterceptors onRequestSuccess is called on fulfilled request" time="0.001">
+    </testcase>
+    <testcase classname="Axios Interceptor setupAxiosInterceptors onResponseSuccess is called on fulfilled response" name="Axios Interceptor setupAxiosInterceptors onResponseSuccess is called on fulfilled response" time="0">
+    </testcase>
+    <testcase classname="Axios Interceptor setupAxiosInterceptors onResponseError is called on rejected response" name="Axios Interceptor setupAxiosInterceptors onResponseError is called on rejected response" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Activate reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:41" time="0.255" tests="8">
+    <testcase classname="Activate reducer tests should return the initial state" name="Activate reducer tests should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="Activate reducer tests should reset" name="Activate reducer tests should reset" time="0.001">
+    </testcase>
+    <testcase classname="Activate reducer tests should detect a success" name="Activate reducer tests should detect a success" time="0">
+    </testcase>
+    <testcase classname="Activate reducer tests should return the same state on request" name="Activate reducer tests should return the same state on request" time="0">
+    </testcase>
+    <testcase classname="Activate reducer tests should detect a failure" name="Activate reducer tests should detect a failure" time="0.001">
+    </testcase>
+    <testcase classname="Activate reducer tests should reset the state" name="Activate reducer tests should reset the state" time="0">
+    </testcase>
+    <testcase classname="Activate reducer tests Actions dispatches ACTIVATE_ACCOUNT_PENDING and ACTIVATE_ACCOUNT_FULFILLED actions" name="Activate reducer tests Actions dispatches ACTIVATE_ACCOUNT_PENDING and ACTIVATE_ACCOUNT_FULFILLED actions" time="0.001">
+    </testcase>
+    <testcase classname="Activate reducer tests Actions dispatches ACTION_TYPES.RESET actions" name="Activate reducer tests Actions dispatches ACTION_TYPES.RESET actions" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Profile reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:41" time="0.228" tests="4">
+    <testcase classname="Profile reducer tests Common tests should return the initial state" name="Profile reducer tests Common tests should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="Profile reducer tests Common tests should return the right payload in prod" name="Profile reducer tests Common tests should return the right payload in prod" time="0.001">
+    </testcase>
+    <testcase classname="Profile reducer tests Common tests should return the right payload in dev with swagger enabled" name="Profile reducer tests Common tests should return the right payload in dev with swagger enabled" time="0">
+    </testcase>
+    <testcase classname="Profile reducer tests Actions dispatches GET_SESSION_PENDING and GET_SESSION_FULFILLED actions" name="Profile reducer tests Actions dispatches GET_SESSION_PENDING and GET_SESSION_FULFILLED actions" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="Locale reducer tests" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:41" time="0.282" tests="4">
+    <testcase classname="Locale reducer tests should return the initial state" name="Locale reducer tests should return the initial state" time="0.001">
+    </testcase>
+    <testcase classname="Locale reducer tests should correctly set the first time locale" name="Locale reducer tests should correctly set the first time locale" time="0">
+    </testcase>
+    <testcase classname="Locale reducer tests should correctly detect update in current locale state" name="Locale reducer tests should correctly detect update in current locale state" time="0.002">
+    </testcase>
+    <testcase classname="Locale reducer tests Locale actions dispatches SET_LOCALE action for default locale" name="Locale reducer tests Locale actions dispatches SET_LOCALE action for default locale" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="error-boundary-route component" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:41" time="0.205" tests="2">
+    <testcase classname="error-boundary-route component Should throw error when no component is provided" name="error-boundary-route component Should throw error when no component is provided" time="0.032">
+    </testcase>
+    <testcase classname="error-boundary-route component Should render fallback component when an uncaught error is thrown from component" name="error-boundary-route component Should render fallback component when an uncaught error is thrown from component" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="error component" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:42" time="0.121" tests="2">
+    <testcase classname="error component Should throw an error when componnet is not enclosed in Error Boundary" name="error component Should throw an error when componnet is not enclosed in Error Boundary" time="0.017">
+    </testcase>
+    <testcase classname="error component Should call Error Boundary componentDidCatch method" name="error component Should call Error Boundary componentDidCatch method" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="AccountMenu" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:42" time="0.229" tests="2">
+    <testcase classname="AccountMenu Renders a authenticated AccountMenu component" name="AccountMenu Renders a authenticated AccountMenu component" time="0.006">
+    </testcase>
+    <testcase classname="AccountMenu Renders a guest AccountMenu component" name="AccountMenu Renders a guest AccountMenu component" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Entity utils" errors="0" failures="0" skipped="0" timestamp="2019-08-23T04:30:42" time="0.097" tests="5">
+    <testcase classname="Entity utils cleanEntity should not remove fields with an id" name="Entity utils cleanEntity should not remove fields with an id" time="0.002">
+    </testcase>
+    <testcase classname="Entity utils cleanEntity should remove fields with an empty id" name="Entity utils cleanEntity should remove fields with an empty id" time="0.004">
+    </testcase>
+    <testcase classname="Entity utils cleanEntity should not remove fields that are not objects" name="Entity utils cleanEntity should not remove fields that are not objects" time="0.001">
+    </testcase>
+    <testcase classname="Entity utils mapIdList should map ids no matter the element&apos;s type" name="Entity utils mapIdList should map ids no matter the element&apos;s type" time="0">
+    </testcase>
+    <testcase classname="Entity utils mapIdList should return an empty array" name="Entity utils mapIdList should return an empty array" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
