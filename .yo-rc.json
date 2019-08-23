@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jwnagai.myapp",
+      "nativeLanguage": "ja"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "JW_Nagai_20190823",
+    "packageName": "com.jwnagai.myapp",
+    "packageFolder": "com/jwnagai/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2M4YmU4Y2E0ZTMyNzk0Y2Y5ODVhMGNmNWY0MDUyNjFmNTM1MTkyNmFlZjExNTNmNTdjYmE2YWJiN2RmODIzNjFhZmU1NmMxZWYwZmJlMGU2ODc3OGY3ZmU2ZjU1ZTYzYzg2YTZlZWI1YTk2MWExZGE2NjczNmNiZDVlYWM5NGM=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "ja",
+    "languages": ["ja"]
+  }
+}
