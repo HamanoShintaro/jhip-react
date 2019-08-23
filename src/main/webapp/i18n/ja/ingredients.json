@@ -1,0 +1,30 @@
+{
+  "jwNagai20190823App": {
+    "ingredients": {
+      "home": {
+        "title": "Ingredients",
+        "createLabel": "Ingredients を追加",
+        "createOrEditLabel": "Ingredientsを追加または編集"
+      },
+      "created": "A new Ingredients is created with identifier {{ param }}",
+      "updated": "A Ingredients is updated with identifier {{ param }}",
+      "deleted": "A Ingredients is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Ingredients {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Ingredients"
+      },
+      "year": "Year",
+      "month": "Month",
+      "date": "Date",
+      "name": "Name",
+      "description": "Description",
+      "images": "Images",
+      "cuisineName": "Cuisine Name",
+      "cuisineDescription": "Cuisine Description",
+      "cuisineImages": "Cuisine Images",
+      "language": "Language"
+    }
+  }
+}

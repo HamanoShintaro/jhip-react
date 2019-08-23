@@ -10,6 +10,7 @@ com/jwnagai/myapp/security/DomainUserDetailsServiceIntTest.class
 com/jwnagai/myapp/repository/timezone/DateTimeWrapperRepository.class
 com/jwnagai/myapp/web/rest/util/PaginationUtilUnitTest.class
 com/jwnagai/myapp/service/MailServiceIntTest.class
+com/jwnagai/myapp/web/rest/IngredientsResourceIntTest.class
 com/jwnagai/myapp/web/rest/UserResourceIntTest.class
 com/jwnagai/myapp/web/rest/errors/ExceptionTranslatorTestController$TestDTO.class
 com/jwnagai/myapp/web/rest/UserJWTControllerIntTest.class
