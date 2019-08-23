@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.jwnagai.myapp.repository.CustomAuditEventRepositoryIntTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.437 s - in com.jwnagai.myapp.repository.CustomAuditEventRepositoryIntTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.354 s - in com.jwnagai.myapp.repository.CustomAuditEventRepositoryIntTest

@@ -24,15 +24,15 @@ public final class HeaderUtil {
     }
 
     public static HttpHeaders createEntityCreationAlert(String entityName, String param) {
-<span class="nc" id="L27">        return createAlert(APPLICATION_NAME + &quot;.&quot; + entityName + &quot;.created&quot;, param);</span>
+<span class="fc" id="L27">        return createAlert(APPLICATION_NAME + &quot;.&quot; + entityName + &quot;.created&quot;, param);</span>
     }
 
     public static HttpHeaders createEntityUpdateAlert(String entityName, String param) {
-<span class="nc" id="L31">        return createAlert(APPLICATION_NAME + &quot;.&quot; + entityName + &quot;.updated&quot;, param);</span>
+<span class="fc" id="L31">        return createAlert(APPLICATION_NAME + &quot;.&quot; + entityName + &quot;.updated&quot;, param);</span>
     }
 
     public static HttpHeaders createEntityDeletionAlert(String entityName, String param) {
-<span class="nc" id="L35">        return createAlert(APPLICATION_NAME + &quot;.&quot; + entityName + &quot;.deleted&quot;, param);</span>
+<span class="fc" id="L35">        return createAlert(APPLICATION_NAME + &quot;.&quot; + entityName + &quot;.deleted&quot;, param);</span>
     }
 
     public static HttpHeaders createFailureAlert(String entityName, String errorKey, String defaultMessage) {

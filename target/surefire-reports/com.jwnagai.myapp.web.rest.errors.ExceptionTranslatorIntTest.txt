@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.jwnagai.myapp.web.rest.errors.ExceptionTranslatorIntTest
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.053 s - in com.jwnagai.myapp.web.rest.errors.ExceptionTranslatorIntTest
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.931 s - in com.jwnagai.myapp.web.rest.errors.ExceptionTranslatorIntTest
